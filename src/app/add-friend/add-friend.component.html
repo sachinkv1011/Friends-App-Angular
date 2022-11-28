@@ -8,19 +8,19 @@
                         <h2 class="text-center">Add your Friend</h2>
                         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                             <label for="" class="form-label">Name</label>
-                            <input type="text" class="form-control">
+                            <input name="name" [(ngModel)]="name" type="text" class="form-control">
                         </div>
                         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                             <label for="" class="form-label">Friend Name</label>
-                            <input type="text" class="form-control">
+                            <input name="friendName" [(ngModel)]="friendName" type="text" class="form-control">
                         </div>
                         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                            <label for="" class="form-label">Friend Nick Name</label>
-                            <input type="text" class="form-control">
+                            <label for="" class="form-label">Friend Name</label>
+                            <input name="friendNickName" [(ngModel)]="friendNickName" type="text" class="form-control">
                         </div>
                         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                             <label for="" class="form-label">Description</label>
-                            <input type="text" class="form-control">
+                            <input name="DescribeYourFriend" [(ngModel)]="DescribeYourFriend"type="text" class="form-control">
                         </div>
                         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
                             <button class="btn btn-primary mt-3">submit</button>
